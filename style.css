@@ -1,0 +1,154 @@
+.head{
+  display: flex;
+  background-color :olive;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius:10px;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+   margin-bottom: 10px;
+  }
+
+.head h1{
+  font-size: 40px;
+  font-family: arial;
+}
+.head input{
+  height: 20px;
+  align-items: centre;
+}
+.section{
+  display: flex;
+  background-color: black;
+  gap: 2px;
+  border-radius: 15px;
+  padding: 10px;
+  align-items: center;
+  border: 2px solid black;
+  height: 30px;
+}
+.section div {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid white; 
+  height: 25px;
+}
+
+.section a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-family: Arial;
+}
+
+.section div:hover {
+  background-color: gray; 
+  cursor: pointer;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+}
+
+.box1 img{
+  height: 150px;
+  width: auto;
+  margin-bottom: 10px;
+}
+.box1 div { 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.box1 h3 {
+  margin: 0 0 10px 0; 
+ 
+}
+
+.box1 p {
+  margin: 0;
+  line-height: 1.5;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+}
+.box2 img{
+  height: 150px;
+  width: auto;
+  margin-bottom: 10px;
+}
+.box2 div { 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.box2 h3 {
+  margin: 0 0 10px 0; 
+  }
+  
+.box2 p {
+  margin: 0;
+  line-height: 1.5;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+}
+.box3 img{
+  height: 150px;
+  width: auto;
+  margin-bottom: 10px;
+}
+.box3 div { 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.box3 h3 {
+  margin: 0 0 10px 0; 
+  }
+  
+.box3 p {
+  margin: 0;
+  line-height: 1.5;
+}
+.last{
+  background-color:silver;
+  height:100px;
+}
+.last{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.last img{
+  height: auto;
+  width: 70px;
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
