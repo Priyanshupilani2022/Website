@@ -1,39 +1,35 @@
-.head{
+.header {
   display: flex;
-  background-color :olive;
+  background-color: olive;
   height: 70px;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  border-radius:10px;
-   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-   margin-bottom: 10px;
-  }
+}
 
-.head h1{
+.head h1 {
   font-size: 40px;
-  font-family: arial;
+  font-family: Arial;
 }
-.head input{
+
+.head input {
   height: 20px;
-  align-items: centre;
+  align-items: center;
 }
-.section{
+
+.section {
   display: flex;
   background-color: black;
-  gap: 2px;
-  border-radius: 15px;
-  padding: 10px;
   align-items: center;
-  border: 2px solid black;
-  height: 30px;
+  text-align: center;
 }
+
 .section div {
   background-color: black;
   padding: 10px;
-  border-radius: 5px;
-  border: 3px solid white; 
+  border: 0.5px solid white;
   height: 25px;
+  width: 100%;
 }
 
 .section a {
@@ -44,109 +40,72 @@
 }
 
 .section div:hover {
-  background-color: gray; 
+  background-color: gray;
   cursor: pointer;
 }
-.bottom{
+
+.bottom {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-.box1 {
+
+.box1, .box2, .box3 {
   flex-direction: column;
   padding: 10px;
-  border: 2px solid black;
-  align-items: center;
-}
-
-.box1 img{
-  height: 150px;
-  width: auto;
-  margin-bottom: 10px;
-}
-.box1 div { 
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-}
-
-.box1 h3 {
-  margin: 0 0 10px 0; 
- 
-}
-
-.box1 p {
-  margin: 0;
-  line-height: 1.5;
-}
-.box2 {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
   align-items: center;
   text-align: center;
 }
-.box2 img{
+
+.box1 img, .box2 img, .box3 img {
   height: 150px;
   width: auto;
   margin-bottom: 10px;
 }
-.box2 div { 
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-}
 
-.box2 h3 {
-  margin: 0 0 10px 0; 
-  }
-  
-.box2 p {
-  margin: 0;
-  line-height: 1.5;
-}
-.box3 {
+.box1 div, .box2 div, .box3 div {
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  border: 2px solid black;
-  align-items: center;
-  text-align: center;
-}
-.box3 img{
-  height: 150px;
-  width: auto;
-  margin-bottom: 10px;
-}
-.box3 div { 
-  display: flex;
-  flex-direction: column; 
   justify-content: center;
 }
 
-.box3 h3 {
-  margin: 0 0 10px 0; 
-  }
-  
-.box3 p {
+.box1 h3, .box2 h3, .box3 h3 {
+  margin: 0 0 10px 0;
+}
+
+.box1 p, .box2 p, .box3 p {
   margin: 0;
   line-height: 1.5;
 }
-.last{
-  background-color:silver;
-  height:100px;
+
+.last {
+  background-color: silver;
+  height: 100px;
 }
-.last{
+
+.last {
   display: flex;
   justify-content: space-between;
-  
 }
-.last img{
+
+.last img {
   height: auto;
-  width: 70px;
+  width: 90px;
   margin-top: 5px;
   margin-left: 40px;
   margin-right: 40px;
   border-radius: 50%;
+}
+
+.lower {
+  display: flex;
+  background-color: black;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lower h6 {
+  color: white;
 }
