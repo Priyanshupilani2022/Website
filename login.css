@@ -1,0 +1,124 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body h1 {
+    text-align: center;
+    margin-top: 230px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 4px 12px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .sign-in {
+    background-color: white;
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sign-in h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .icons{
+    margin-bottom: 15px;
+  }
+  
+  .greeting {
+    background: red;
+    width: 50%;
+    text-align: center;
+    align-items: center; 
+    padding: 20px;
+  }
+  
+  .greeting h2{
+    font-size: 28px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .greeting p{
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1px;
+    margin: 0 8px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook, .fa-google, .fa-linkedin {
+    background: white;
+    color: black;
+  }
+  
+  
+  .formdesign input{
+    border: 1px solid grey;
+    height: 30px;
+    margin-bottom: 15px;
+    
+  }
+  .formerror{
+    color: red;
+  }
+  .signbutton{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 3px;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+  }
+  .para{
+    color: grey;
+  }
+  .sign-up{
+    background-color: red;
+    color: white;
+    padding: 10px 3px;
+    border-radius: 30px;
+     border: 1px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+  }

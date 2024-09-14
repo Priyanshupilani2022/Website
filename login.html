@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <h1>Weekly Coding Challenge #1: Sign in/Sign up Form</h1>
+    <div class="header">
+        <div class="sign-in">
+            <h2>Sign in</h2>
+            <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <p>or use your account</p>
+            <form name="myForm" onSubmit=" return validateForm()">
+                <div class="formdesign" id="email">
+                    <input type="text" name="femail" placeholder="Email" value=""><br>
+                    <span class="formerror"></span>
+                </div>
+                <div class="formdesign" id="pass">
+                    <input type="password" name="fpass" placeholder="Password"><br>
+                    <span class="formerror"></span>
+                </div>
+                <div class="para">
+                    <p>Forgot your password?</p>
+                </div>
+                <input class="signbutton" type="submit" value="SIGN IN">
+            </form>
+            <div id="login-message" style="display:none;">User logged in successfully!</div>
+        </div>
+
+        <div class="greeting">
+            <h2>Hello, Friend!</h2>
+            <p>Enter your personal details and start your journey with us</p>
+            <button class="sign-up">SIGN UP</button>
+        </div>
+    </div>
+</body>
+
+</html>
